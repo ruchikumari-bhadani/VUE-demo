@@ -1,0 +1,110 @@
+// If you want to override variables do it here
+@import "variables";
+
+// Import styles with default layout.
+@import "~@coreui/coreui-pro/scss/coreui";
+
+// If you want to add something do it here
+@import "custom";
+
+// .c-body {
+//     background: white!important;
+// }
+.form-control{
+    // height: 42px!important;
+    margin-bottom: 10px;
+}
+// textarea.form-control {
+//     height: auto!important;
+// }
+.colum-header{
+   
+    padding: 4px 0px 4px 6px!important;
+    color:#fff;
+}
+.para-text p {
+    margin-bottom: 0px!important;
+}
+.is-invalid .col-sm-9 input {
+    border: 1px solid orange!important;
+}
+.is-invalid .col-sm-9 textarea {
+    border: 1px solid orange!important;
+}
+.is-invalid .form-control:focus{
+    box-shadow: none;
+}
+.is-invalid .col-sm-9 select {
+    border: 1px solid orange!important;
+}
+.is-invalid .col-sm-9 #cars:focus{
+    box-shadow: none!important;
+    border-color: orange !important;
+}
+.inner-preview table tbody tr td div>p {
+    margin-bottom: 4px!important;
+}
+body{
+    background-color:#fff!important;
+  }
+select:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+    border-color: #958bef !important;
+    outline: 0 !important;
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(50, 31, 219, 0.25) !important;
+    box-shadow: 0 0 0 0.2rem rgba(50, 31, 219, 0.25) !important;
+}
+.inner-div-wrap p {
+    margin-bottom: 0em!important;
+    margin-top: 0em!important;
+}
+pre {
+    white-space: pre-wrap;
+}
+p {
+    margin-bottom: 0px!important;
+}
+.form-control {
+    min-height: 42px!important;
+}
+
+.logo-img-header img {
+    // width: 100%;
+    // margin: 12px 0px;
+    // padding: 0 6%;
+ width: 55px;
+ margin: 12px 0px;
+}
+
+// .c-sidebar-lg-show.c-sidebar-fixed{
+//     background: #898e9d;
+//     z-index: 9999;
+//     box-shadow: 2px 0px 5px -1px rgba(0, 0, 0, 0.18);
+// }
+// .c-sidebar-nav.h-100.ps{
+//     position: relative;
+//     background: #898f9d  !important ;
+//     opacity: 1;
+// }
+
+.c-sidebar .c-sidebar-brand
+{
+    background: #ffffffb8;
+}
+.c-sidebar .c-sidebar-nav-link:hover, .c-sidebar .c-sidebar-nav-dropdown-toggle:hover {
+    background-color: #6c707a !important;
+}
+// .c-sidebar .c-sidebar-nav-link, .c-sidebar .c-sidebar-nav-dropdown-toggle{
+//     font-weight: 700;
+// }
+// .c-body { 
+//     background: #acb5c71f;
+// }
+.vc-chrome {
+    margin-bottom: 20px;
+}
+
+// body .altrow.countrow td div {
+//     word-break: normal !important;
+//     margin : 10px
+// }
